@@ -1,0 +1,26 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./scss/main.scss ./css/index.css --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test-webpack"
+  },
+  "author": "Maksim Pankratov",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.0",
+    "sass-loader": "^16.0.5",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}

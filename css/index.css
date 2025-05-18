@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 1180px;
+  margin: 32px auto;
+}
+
+.head__block {
+  display: flex;
+  justify-content: space-between;
+}
+.head__block .logo {
+  width: 180px;
+  height: 38px;
+}
+
+.contacts {
+  display: flex;
+  gap: 20px;
+}
+.contacts .web, .contacts .tel {
+  width: 280px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.contacts .web .web__text, .contacts .tel .web__text {
+  font: 14px/120% "Source Sans 3", sans-serif;
+  color: #333333;
+}
+.contacts .web .web__link, .contacts .web .tel__tel, .contacts .tel .web__link, .contacts .tel .tel__tel {
+  font: 600 20px/100% "Source Sans 3", sans-serif;
+  color: #607CE6;
+  cursor: pointer;
+}
+.contacts .tel {
+  width: 180px;
+}
+
+.line {
+  width: 1180px;
+  height: 1px;
+  background-color: #888888;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+/*# sourceMappingURL=index.css.map */
