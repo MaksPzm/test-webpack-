@@ -1,3 +1,8 @@
+justify, .description .description__img, .menu .menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +10,20 @@
 }
 
 html {
-  width: 1180px;
+  width: 1440px;
   margin: 32px auto;
 }
 
-.head__block {
+.header {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.header__block {
   display: flex;
   justify-content: space-between;
 }
-.head__block .logo {
+.header__block .logo {
   width: 180px;
   height: 38px;
 }
@@ -48,6 +58,285 @@ html {
   background-color: #888888;
   margin-top: 32px;
   margin-bottom: 16px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  font: 16px/120% "Source Sans 3", sans-serif;
+  position: relative;
+}
+
+.menu {
+  width: 951px;
+  height: 19px;
+}
+.menu .menu-list {
+  list-style: none;
+}
+.menu .menu-list .menu-list__item-link {
+  text-decoration: none;
+  color: #333333;
+}
+.menu .menu-list .menu-list__item-link:hover {
+  color: #607CE6;
+}
+
+.call-back {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.call-back .call-back__btn {
+  text-transform: uppercase;
+  color: #607CE6;
+  border: none;
+  background-color: #FFFFFF;
+}
+.call-back .call-back__btn:hover {
+  color: #333333;
+}
+
+.wrapper {
+  width: 1180px;
+  margin: 80px auto 0;
+  color: #333333;
+  font: 16px/120% "Source Sans 3", sans-serif;
+}
+
+.title .title__name {
+  height: 144px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.title .title__name .title__name-heading {
+  width: 580px;
+  height: 144px;
+  font: 700 60px/120% "Source Sans 3", sans-serif;
+  color: #333333;
+}
+.title .title__name .title__name-text {
+  width: 379px;
+  height: 94px;
+}
+.title .title__img {
+  margin-top: 32px;
+}
+
+.description {
+  margin-top: 80px;
+}
+.description .description__heading {
+  font: 700 48px/120% "Source Sans 3", sans-serif;
+}
+.description .description__text {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.description .description__text .description__text-block {
+  display: flex;
+  justify-content: space-between;
+}
+.description .description__text .description__text-content {
+  line-height: 140%;
+  width: 580px;
+}
+.description .description__text .description__text-content.description__text-content_last {
+  padding-top: 24px;
+}
+.description .description__img {
+  height: 280px;
+  gap: 20px;
+  margin-top: 32px;
+}
+.description .description__img .description__img-item {
+  width: 580px;
+  height: 280px;
+}
+
+.heading-two {
+  font: 700 48px/120% "Source Sans 3", sans-serif;
+  color: #333333;
+}
+
+.products {
+  height: 985px;
+  margin-top: 80px;
+}
+.products .products__categories {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 25px;
+}
+.products .products__categories .products__categories-item {
+  height: 435px;
+  background-color: #F5F5F5;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.products .products__categories .products__categories-item .products__categories-item-img {
+  width: 200px;
+  padding-top: 32px;
+  padding-left: 24px;
+}
+.products .products__categories .products__categories-item .products__categories-item-link {
+  display: block;
+  padding-left: 24px;
+  margin-top: auto;
+  padding-bottom: 32px;
+  text-decoration: none;
+  color: #607CE6;
+}
+.products .products__categories .products__categories-item .products__categories-item-title {
+  font: 600 28px/120% "Source Sans 3", sans-serif;
+  position: absolute;
+  top: 333px;
+  left: 24px;
+  color: #333333;
+}
+
+.office {
+  margin-top: 80px;
+}
+.office .office__map {
+  margin-top: 32px;
+  position: relative;
+}
+.office .office__map .office__map-city {
+  width: 96px;
+  min-height: 14px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#rostov {
+  top: 506px;
+  left: 71px;
+}
+
+#volgograd {
+  top: 521.08px;
+  left: 98.43px;
+}
+
+#samara {
+  top: 497px;
+  left: 186px;
+}
+
+#kazan {
+  top: 466.08px;
+  left: 210.45px;
+}
+
+#ufa {
+  top: 512.08px;
+  left: 243.43px;
+}
+
+#nizhnevartovsk {
+  top: 425.08px;
+  left: 378.43px;
+}
+
+#vladivostok {
+  top: 591px;
+  left: 1050px;
+}
+
+.news {
+  margin: 80px 0;
+}
+.news .news__content {
+  margin-top: 32px;
+  height: 478px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.news .news__content .news__content-block {
+  width: 380px;
+  background-color: #F5F5F5;
+}
+.news .news__content .news__content-block .news__content-block-img {
+  width: 380px;
+  height: 251px;
+}
+.news .news__content .news__content-block .news__content-block-text {
+  width: 348px;
+  height: 84px;
+  display: block;
+  font: 20px/140% "Source Sans 3", sans-serif;
+  margin: 16px 16px 81px;
+}
+.news .news__content .news__content-block .news__content-block-chapter {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px 24px;
+}
+.news .news__content .news__content-block .news__content-block-chapter .news__content-block-chapter-link {
+  text-decoration: none;
+  color: #607CE6;
+}
+
+.footer {
+  width: 1440px;
+  background-color: #333333;
+  margin: 0 auto;
+}
+
+.footer__nav {
+  width: 1180px;
+  margin: 0 auto 73px;
+  padding-top: 56px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.footer__nav .footer__nav-menu {
+  height: 191px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 57px;
+}
+.footer__nav .footer__nav-menu .menu {
+  width: 343px;
+}
+.footer__nav .footer__nav-menu .menu .menu-list {
+  height: 191px;
+  flex-flow: column wrap;
+  gap: 24px;
+  column-gap: 91px;
+  justify-content: flex-start;
+}
+.footer__nav .footer__nav-menu .menu .menu-list .menu-list__item .menu-list__item-link {
+  color: #FFFFFF;
+}
+.footer__nav .footer__nav-menu .footer__documents .footer__documents-list {
+  width: 155px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 24px;
+  list-style: none;
+}
+.footer__nav .footer__nav-menu .footer__documents .footer__documents-list .footer__documents-list-item .footer__documents-list-item-link {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__date {
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  color: #FFFFFF;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=index.css.map */

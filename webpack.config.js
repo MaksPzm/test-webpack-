@@ -1,22 +1,26 @@
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 module.exports = {
-    entry: '/index.js',
+    entry: './index.js',
     output: {
         filename: 'main.js'
 
     },
+    mode: "production",
+    plugins: [new MiniCssExtractPlugin()],
     module: {
     rules: [
       {
-        test: /\.s[ac]ss$/i,
-        use: [
-          // Creates `style` nodes from JS strings
-          "style-loader",
-          // Translates CSS into CommonJS
-          "css-loader",
-          // Compiles Sass to CSS
-          "sass-loader",
-        ],
+        test: /.s?css$/,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
     ],
   },
+  optimization: {
+      minimizer: [
+      '...',
+      new CssMinimizerPlugin(),
+      ],
+  },
+  
 }

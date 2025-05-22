@@ -10,8 +10,8 @@
     <title>test</title>
 </head>
 <body>
-    <head class="head">
-        <div class="head__block">
+    <header class="header">
+        <div class="header__block">
             <div class="logo">
                 <img class="logo__img" src="images/svg/logo.svg" alt="логотип">
             </div>
@@ -27,22 +27,163 @@
             </div>
         </div>
         <div class="line"></div>
-        <nav class="menu">
-            <ul class="menu-list">
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">Главная</a></li>
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">О предприятии</a></li>
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">Новости</a></li>
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">Продукция</a></li>
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">Услуги</a></li>
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">Поддержка</a></li>
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">География</a></li>
-                <li class="menu-list__item"><a class="menu-list__item-link" href="#">Контакты</a></li>
-            </ul>
-        </nav>
-        <div class="call-back">
-            <img class="call-back__img" src="images/svg/phone 1.svg" alt="телефон">
-            <span class="call-back__text">Перезвоните мне</span>
+        <div class="header-nav">
+           <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">Главная</a></li>
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">О предприятии</a></li>
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">Новости</a></li>
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">Продукция</a></li>
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">Услуги</a></li>
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">Поддержка</a></li>
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">География поставок</a></li>
+                    <li class="menu-list__item"><a class="menu-list__item-link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="call-back">
+                <img class="call-back__img" src="images/svg/phone 1.svg" alt="телефон">
+                <button class="call-back__btn">Перезвоните мне</>
+            </div> 
         </div>
-    </head>
+    </header>
+    <main class="wrapper">
+        <div class="title">
+            <div class="title__name">
+                <h1 class="title__name-heading">Российский завод силовых машин</h1>
+                <span class="title__name-text">
+                    научно-производственное предприятие, занимающееся разработкой и производством силовых машин.
+                </span>
+            </div>
+            <img class="title__img" src="images/png/hero-image.png" alt="завод">
+        </div>
+        <div class="description">
+           <h2 class="description__heading heading-two">О предприятии</h2>
+           <div class="description__text">
+                <div class="description__text-block">
+                    <p class="description__text-content">
+                    За 20 лет развития в структуре завода сформирован мощный производственный потенциал, научно-технический центр, 
+                    испытательная лаборатория, современная база, учебный центр и широкая сеть региональных и международных представительств в Российской Федерации, 
+                    Республике Беларусь, Узбекистане и Казахстане.
+                    </p>
+                    <p class="description__text-content">
+                    В номенклатуре выпускаемой НПП «ПИОНЕР» продукции найдется все, что необходимо для успешного решения задачи автоматизации технологических процессов на любом предприятии. 
+                    Все средства измерения производства «ПИОНЕР» внесены в Государственный реестр СИ и имеют необходимые разрешительные документы.
+                    </p>
+                </div>
+                <p class="description__text-content description__text-content_last">
+                    Ежегодно НПП «ПИОНЕР» реализует несколько проектов по модернизации серийных и разработке новых приборов, 
+                    призванные в наибольшей степени удовлетворять возрастающие требования наших заказчиков.
+                </p>
+           </div>
+           <div class="description__img">
+                <img class="description__img-item" src="images/png/desc-1.png" alt="сварщик">
+                <img class="description__img-item" src="images/png/desc-2.png" alt="машина на конвеере">
+           </div> 
+        </div>
+        <div class="products">
+            <h2 class="products__heading heading-two">Продукция</h2>
+            <div class="products__categories">
+                <div class="products__categories-item">
+                    <img class="products__categories-item-img" src="images/png/1.png" alt="сигнализатор уровня">
+                    <h3 class="products__categories-item-title">Сигнализатор уровня</h3>
+                    <a class="products__categories-item-link" href="#">Подробнее ></a>
+                </div>
+                <div class="products__categories-item">
+                    <img class="products__categories-item-img" src="images/png/2.png" alt="датчик давления">
+                    <h3 class="products__categories-item-title">Датчики давления</h3>
+                    <a class="products__categories-item-link" href="#">Подробнее ></a>
+                </div>
+                <div class="products__categories-item">
+                    <img class="products__categories-item-img" src="images/png/3.png" alt="пид-регулятор">
+                    <h3 class="products__categories-item-title">ПИД-регуляторы</h3>
+                    <a class="products__categories-item-link" href="#">Подробнее ></a>
+                </div>
+                <div class="products__categories-item">
+                    <img class="products__categories-item-img" src="images/png/4.png" alt="калибратор давления">
+                    <h3 class="products__categories-item-title">Калибратор давления</h3>
+                    <a class="products__categories-item-link" href="#">Подробнее ></a>
+                </div>
+                <div class="products__categories-item">
+                    <img class="products__categories-item-img" src="images/png/5.png" alt="корректор расхода газа">
+                    <h3 class="products__categories-item-title">Корректор расхода газа</h3>
+                    <a class="products__categories-item-link" href="#">Подробнее ></a>
+                </div>
+                <div class="products__categories-item">
+                    <img class="products__categories-item-img" src="images/png/6.png" alt="манометры">
+                    <h3 class="products__categories-item-title">Манометры</h3>
+                    <a class="products__categories-item-link" href="#">Подробнее ></a>
+                </div>
+            </div>
+        </div>
+        <div class="office">
+            <h2 class="office__heading heading-two">Представительства</h2>
+            <div class="office__map">
+                <img class="office__map-img" src="images/png/map.png" alt="карта">
+                <div class="office__map-city" id="rostov"></div>
+                <div class="office__map-city" id="volgograd"></div>
+                <div class="office__map-city" id="samara"></div>
+                <div class="office__map-city" id="kazan"></div>
+                <div class="office__map-city" id="ufa"></div>
+                <div class="office__map-city" id="nizhnevartovsk"></div>
+                <div class="office__map-city" id="vladivostok"></div>
+            </div>
+        </div>
+        <div class="news">
+            <h2 class="news__heading heading-two">Новости</h2>
+            <div class="news__content">
+                <div class="news__content-block">
+                    <img class="news__content-block-img" src="images/png/n1.png" alt="рабочее место">
+                    <span class="news__content-block-text">НПП «ПИОНЕР» подтвердило свои компетенции в области консультирования и изготовления…</span>
+                    <div class="news__content-block-chapter">
+                        <a class="news__content-block-chapter-link" href="#">Читать далее</a>
+                        <span class="news__content-block-chapter-data">20.07.2020</span>
+                    </div>
+                </div>
+                <div class="news__content-block">
+                    <img class="news__content-block-img" src="images/png/n2.png" alt="сверло">
+                    <span class="news__content-block-text">Поздравляем коллектив регионального представительства «ПИОНЕР» с праздником!</span>
+                    <div class="news__content-block-chapter">
+                        <a class="news__content-block-chapter-link" href="#">Читать далее</a>
+                        <span class="news__content-block-chapter-data">18.07.2020</span>
+                    </div>
+                </div>
+                <div class="news__content-block">
+                    <img class="news__content-block-img" src="images/png/n3.png" alt="рабочий за станком">
+                    <span class="news__content-block-text">Перенос сроков проведения запланированных работ в 2020 году</span>
+                    <div class="news__content-block-chapter">
+                        <a class="news__content-block-chapter-link" href="#">Читать далее</a>
+                        <span class="news__content-block-chapter-data">20.06.2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__nav">
+            <img class="footer__nav-img" src="images/svg/logo-d.svg" alt="logo">
+            <div class="footer__nav-menu">
+                <nav class="menu menu__footer">
+                    <ul class="menu-list">
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">Главная</a></li>
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">О предприятии</a></li>
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">Новости</a></li>
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">Продукция</a></li>
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">Услуги</a></li>
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">Поддержка</a></li>
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">География поставок</a></li>
+                        <li class="menu-list__item"><a class="menu-list__item-link" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__documents">
+                    <ul class="footer__documents-list">
+                        <li class="footer__documents-list-item"><a class="footer__documents-list-item-link" href="#">Файлы</a></li>
+                        <li class="footer__documents-list-item"><a class="footer__documents-list-item-link" href="#">Поддержка</a></li>
+                        <li class="footer__documents-list-item"><a class="footer__documents-list-item-link" href="#">Политика конфеденциальности</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <span class="footer__date">1994 — 2020 ООО «ПИОНЕР»</span>    
+    </footer>
 </body>
 </html>
