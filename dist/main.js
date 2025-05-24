@@ -7,8 +7,203 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./images/png sync recursive ^\\.\\/.*$":
+/*!***********************************!*\
+  !*** ./images/png/ sync ^\.\/.*$ ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var map = {\n\t\"./1.png\": \"./images/png/1.png\",\n\t\"./2.png\": \"./images/png/2.png\",\n\t\"./3.png\": \"./images/png/3.png\",\n\t\"./4.png\": \"./images/png/4.png\",\n\t\"./5.png\": \"./images/png/5.png\",\n\t\"./6.png\": \"./images/png/6.png\",\n\t\"./desc-1.png\": \"./images/png/desc-1.png\",\n\t\"./desc-2.png\": \"./images/png/desc-2.png\",\n\t\"./hero-image.png\": \"./images/png/hero-image.png\",\n\t\"./map.png\": \"./images/png/map.png\",\n\t\"./n1.png\": \"./images/png/n1.png\",\n\t\"./n2.png\": \"./images/png/n2.png\",\n\t\"./n3.png\": \"./images/png/n3.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images/png sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://test-webpack/./images/png/_sync_^\\.\\/.*$?");
+
+/***/ }),
+
+/***/ "./images/png/1.png":
+/*!**************************!*\
+  !*** ./images/png/1.png ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/1.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/1.png?");
+
+/***/ }),
+
+/***/ "./images/png/2.png":
+/*!**************************!*\
+  !*** ./images/png/2.png ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/2.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/2.png?");
+
+/***/ }),
+
+/***/ "./images/png/3.png":
+/*!**************************!*\
+  !*** ./images/png/3.png ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/3.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/3.png?");
+
+/***/ }),
+
+/***/ "./images/png/4.png":
+/*!**************************!*\
+  !*** ./images/png/4.png ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/4.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/4.png?");
+
+/***/ }),
+
+/***/ "./images/png/5.png":
+/*!**************************!*\
+  !*** ./images/png/5.png ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/5.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/5.png?");
+
+/***/ }),
+
+/***/ "./images/png/6.png":
+/*!**************************!*\
+  !*** ./images/png/6.png ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/6.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/6.png?");
+
+/***/ }),
+
+/***/ "./images/png/desc-1.png":
+/*!*******************************!*\
+  !*** ./images/png/desc-1.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/desc-1.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/desc-1.png?");
+
+/***/ }),
+
+/***/ "./images/png/desc-2.png":
+/*!*******************************!*\
+  !*** ./images/png/desc-2.png ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/desc-2.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/desc-2.png?");
+
+/***/ }),
+
+/***/ "./images/png/hero-image.png":
+/*!***********************************!*\
+  !*** ./images/png/hero-image.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/hero-image.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/hero-image.png?");
+
+/***/ }),
+
+/***/ "./images/png/map.png":
+/*!****************************!*\
+  !*** ./images/png/map.png ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/map.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/map.png?");
+
+/***/ }),
+
+/***/ "./images/png/n1.png":
+/*!***************************!*\
+  !*** ./images/png/n1.png ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/n1.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/n1.png?");
+
+/***/ }),
+
+/***/ "./images/png/n2.png":
+/*!***************************!*\
+  !*** ./images/png/n2.png ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/n2.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/n2.png?");
+
+/***/ }),
+
+/***/ "./images/png/n3.png":
+/*!***************************!*\
+  !*** ./images/png/n3.png ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/png/n3.png\");\n\n//# sourceURL=webpack://test-webpack/./images/png/n3.png?");
+
+/***/ }),
+
+/***/ "./images/svg sync recursive ^\\.\\/.*$":
+/*!***********************************!*\
+  !*** ./images/svg/ sync ^\.\/.*$ ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("var map = {\n\t\"./logo-d.svg\": \"./images/svg/logo-d.svg\",\n\t\"./logo.svg\": \"./images/svg/logo.svg\",\n\t\"./phone 1.svg\": \"./images/svg/phone 1.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images/svg sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://test-webpack/./images/svg/_sync_^\\.\\/.*$?");
+
+/***/ }),
+
+/***/ "./images/svg/logo-d.svg":
+/*!*******************************!*\
+  !*** ./images/svg/logo-d.svg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/svg/logo-d.svg\");\n\n//# sourceURL=webpack://test-webpack/./images/svg/logo-d.svg?");
+
+/***/ }),
+
+/***/ "./images/svg/logo.svg":
+/*!*****************************!*\
+  !*** ./images/svg/logo.svg ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/svg/logo.svg\");\n\n//# sourceURL=webpack://test-webpack/./images/svg/logo.svg?");
+
+/***/ }),
+
+/***/ "./images/svg/phone 1.svg":
+/*!********************************!*\
+  !*** ./images/svg/phone 1.svg ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/svg/phone 1.svg\");\n\n//# sourceURL=webpack://test-webpack/./images/svg/phone_1.svg?");
+
+/***/ }),
 
 /***/ "./index.js":
 /*!******************!*\
@@ -16,7 +211,8 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _script_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script/script */ \"./script/script.js\");\n/* harmony import */ var _script_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_script_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/main.scss */ \"./scss/main.scss\");\n\r\n\n\n//# sourceURL=webpack://test-webpack/./index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _script_script__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./script/script */ \"./script/script.js\");\n/* harmony import */ var _script_script__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_script_script__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/main.scss */ \"./scss/main.scss\");\n\r\n\r\n// import png from './images/png/1.png';\r\nfunction requireAll(r) { r.keys().forEach(r); }\r\nrequireAll(__webpack_require__(\"./images/png sync recursive ^\\\\.\\\\/.*$\"));\r\nrequireAll(__webpack_require__(\"./images/svg sync recursive ^\\\\.\\\\/.*$\"));\r\n\n\n//# sourceURL=webpack://test-webpack/./index.js?");
 
 /***/ }),
 
@@ -26,6 +222,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scr
   \**************************/
 /***/ (() => {
 
+"use strict";
 eval("\nconst btnCallBack = document.querySelector(\".call-back__btn\");\nlet newDiv = `\r\n    <div class=\"newCallBack\">\r\n        <form>\r\n            <label>\r\n            Введите номер\r\n            <input type=\"tel\">\r\n            </label>\r\n            <input type=\"submit\">\r\n        </form>\r\n    </div>\r\n`;\n\n\n//# sourceURL=webpack://test-webpack/./script/script.js?");
 
 /***/ }),
@@ -36,6 +233,7 @@ eval("\nconst btnCallBack = document.querySelector(\".call-back__btn\");\nlet ne
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://test-webpack/./scss/main.scss?");
 
 /***/ })
@@ -91,6 +289,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -105,6 +315,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
